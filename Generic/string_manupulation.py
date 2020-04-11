@@ -1,4 +1,4 @@
-#Strings Advancement
+#!Strings Advancement
 """A raw string completely ignores all escape characters and prints any backslash that appears in the string """
 print(r'this isn\'t that easy to program')
 
@@ -18,6 +18,7 @@ print('hello Meher'.partition('M'))  # partitions the string into before and aft
 print('Meher'.center(20, '*'))      # rjust(), ljust(), and center() lets you ensure that strings are neatly aligned
 print('    Hi Meher   bye'.lstrip())  # we can remove Whitespace with the strip(), rstrip(), and lstrip() Methods
 
+print(ord('A'), chr(101))  # ord() , chr() are used to get the unicode or string resp.
 
 
 """
