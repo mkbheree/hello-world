@@ -18,8 +18,9 @@ while True:
 
 '''
 get(key,val) - returns the val in case of absence of key, instead of key error
-setdefault(key,val) - sets a default value to a key, if key is'bt present in the dict
+setdefault(key,val) - sets a default value to a key, if key is'nt present in the dict
 pprint.pprint()- helps to print dictionary in a pretty manner
+del dict[key] - removes that specific key-value pair form the dictionary
 '''
 
 
